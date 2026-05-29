@@ -1,1 +1,28 @@
-# frontend-loja-refatora-o
+# Backend Supabase
+
+API Express conectada ao Supabase com rotas básicas de categorias, produtos e pedidos.
+
+## Como rodar
+
+1. Copie `.env.example` para `.env`.
+2. Preencha `SUPABASE_URL` e `SUPABASE_KEY`.
+3. Execute:
+
+```bash
+npm install
+npm start
+```
+
+## Endpoints
+
+- `GET /` - status da API
+- `GET /categorias` - lista categorias
+- `POST /categorias` - cria categoria
+- `GET /produtos` - lista produtos
+- `POST /produtos` - cria produto
+- `GET /pedidos` - lista pedidos
+- `POST /pedidos` - cria pedido
+
+## Observações
+
+Crie as tabelas no Supabase com nomes `categorias`, `produtos`, `pedidos` e `pedido_itens` para usar o backend.
